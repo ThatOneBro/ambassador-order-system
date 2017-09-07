@@ -1,0 +1,37 @@
+doctype html
+head
+	title Menu Item Creation Form
+
+body
+	form(method="POST", action="/createitem")
+		label(for="name") Name
+			input(type="text", name="name", id="name", required="required")
+		label(for="description") Description
+			input(type="text", name="description", id="description")
+		label(for="price") Price
+			input(type="text", name="price", id="price", required="required")
+		label(for="category") Category
+			select(name="category", id="category", required="required")
+				option(value="appetizers") Appetizers
+				option(value="soups") Soups
+				option(value="beef") Beef
+				option(value="poultry") Chicken and Duck
+				option(value="seafood") Seafood
+				option(value="pork") Pork
+				option(value="vegetables") Vegetables
+				option(value="steamed") Steamed
+				option(value="eggfooyoung") Egg Foo Young
+				option(value="lomein") Lo Mein and Fried Rice
+				option(value="dessert") Dessert
+				option(value="beverages") Beverages
+		label(for="popular") Popular
+			input(type="checkbox", name="popular", id="popular")
+		label(for="spicy") Spicy
+			input(type="checkbox", name="spicy", id="spicy")
+		label(for="veg") Veg
+			input(type="checkbox", name="veg", id="veg")
+		label(for="pickup") Pickup Only
+			input(type="checkbox", name="pickup", id="pickup")
+		input(type="submit" value="Submit")
+			
+		

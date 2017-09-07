@@ -1,0 +1,22 @@
+include includes/meta-data.html
+
+body
+	include includes/nav-bar.html
+	link(rel="stylesheet", type="text/css", href="css/menu.css")
+	include includes/menu-header.html
+	
+	.container.menu-page
+		each category in menu
+			.row
+				.section-title.text-center
+					h2.cat-name= category.name
+				each item in category.items
+					-var price = (item.price / 100).toFixed(2)
+					.col-xs-6.col-sm-4.menu-item
+							h3.item-name= item.name
+							p.item-desc= item.description
+							p.item-price= '$' + price
+							a.btn.btn-default.add-btn(href="") Order Now
+	
+	include includes/footer.html
+	include includes/scripts.html

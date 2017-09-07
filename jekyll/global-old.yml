@@ -1,0 +1,58 @@
+#Global data
+address: 4326 Richmond Ave, Houston, TX 77027
+phone: (713) 877-9394
+email: contact@ambassador.com
+
+pages: 
+    - {name: 'Home', url: '/'}
+    - {name: 'About', url: '/about'}
+    - {name: 'Menu', url: '/menu'}
+    - {name: 'Contact', url: '/contact'}
+   
+shortmenu:
+  - 
+        name: 'Appetizers' 
+        items: 
+          - {name: 'Egg Rolls (2 Pcs)', price: 3.50}
+          - {name: 'Chinese Oven Ribs', price: 6.00}
+          - {name: 'Fried Wontons (12 Pcs)', price: 5.00}
+          - {name: 'Steamed Shrimp Dumplings (6 Pcs)', price: 7.00}
+  - 
+        name: 'Entrees' 
+        items:
+          - {name: 'Mongolian Beef', price: 12.50}
+          - {name: 'Mandarin Beef', price: 12.50}
+          - {name: 'Szechuan Sauteed Shredded Beef', price: 12.50}
+          - {name: 'Sweet and Sour Chicken', price: 12.00}
+          - {name: 'Kung Pao Chicken', price: 12.00}
+          - {name: 'Mu-Shu Shrimp', price: 14.00}
+  - 
+        name: 'Dessert' 
+        items:
+          - {name: 'Peking Glazed Apple', price: 6.50}
+          - {name: 'Peking Glazed Banana', price: 6.50}
+          - {name: 'Chilled Lychee', price: 4.50}
+          - {name: 'Cheesecake', price: 3.50}
+
+menu:
+  - 
+        name: 'Appetizers' 
+        items: 
+          - {name: 'Egg Rolls (2 Pcs)', price: 3.50}
+          - {name: 'Chinese Oven Ribs', price: 6.00}
+          - {name: 'Fried Wontons (12 Pcs)', price: 5.00}
+          - {name: 'Steamed Shrimp Dumplings (6 Pcs)', price: 7.00}
+  - 
+        name: 'Beef' 
+        items:
+          - {name: 'Mongolian Beef', price: 12.50}
+          - {name: 'Mandarin Beef', price: 12.50}
+          - {name: 'Szechuan Sauteed Shredded Beef', price: 12.50}
+  - 
+        name: 'Dessert' 
+        items:
+          - {name: 'Peking Glazed Apple', price: 6.50}
+          - {name: 'Peking Glazed Banana', price: 6.50}
+          - {name: 'Chilled Lychee', price: 4.50}
+          - {name: 'Cheesecake', price: 3.50}
+          

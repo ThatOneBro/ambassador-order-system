@@ -1,0 +1,54 @@
+sign in on menu page
+create menu page (cart has dollar value of current order) stored in session
+
+
+modal to customize item after clicking order now
+
+
+pickup only
+ask for delivery or pickup
+special instructions
+location tab
+configure options and sizes
+
+------------------------------
+----------Major Steps---------
+------------------------------
+design order placement system (on checkout, create an account with this info for faster checkout)
+order queue (where orders sit until faxed, system on timer that checks for orders that have not been faxed)
+design login system
+design profile management system
+design order cancellation?
+design  portal for restaurant to view orders
+delivery radius
+Min Order:$15
+Free delivery
+design order cancellation / adjustments for restaurant
+create contact page
+create about page
+add images to menu items
+add yelp reviewer, zomato reviewer, etc.
+optimize for SEO ranking (keywords, description)
+add SSL
+implement secure sessions
+implement security best practices
+
+
+
+-----------------------------
+-------------Later-----------
+-----------------------------
+possibily darken whole image, remove box around hero text
+logo
+clear out unnecessary image files
+remove morgan logs if not necessary
+favicon
+fix ghetto fix '0' on menu
+fix ghetto fix margin on footer
+
+
+
+-----------------------------
+Async post to /additem route with token in field
+Error if error,
+else refresh cart total at top
